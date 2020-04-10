@@ -22,7 +22,7 @@ senhas = [senha.replace('\n',"") for senha in senhas]
 for senha in senhas:
     print("{}|{}".format(email, senha), file=open("wordlist.txt", "a+"))
 print("Sua lista foi salva no arquivo wordlist.txt")
-print("Digite o nome do arquivo se deja iniciar o ataque: ")
+print("Digite o nome do arquivo se deseja iniciar o ataque: ")
 separa = '|'
 lista = input("")
 lista = open(lista, 'r').readlines()
